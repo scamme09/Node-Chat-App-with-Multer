@@ -32,10 +32,10 @@ const mysql = require("mysql");
 const fs = require("fs");
 const path = require("path");
 const con = mysql.createConnection({
-  host: "remotemysql.com",
-  user: "AADQlJOs20",
-  password: "DIV5VDaJ5N",
-  database: "AADQlJOs20"
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "chat"
 });
 
 let file = "";
